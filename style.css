@@ -1,0 +1,57 @@
+html, body {
+    height: 100%;
+}
+
+html {
+    display: table;
+    margin: auto;
+}
+
+#body {
+    position: relative;
+    padding-top: 100px;
+    width: 340px;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+canvas {
+    margin-right: 3px;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: dodgerblue;
+    border-width: 2px;
+}
+
+.done {
+    border-style: solid;
+    border-color: mediumvioletred;
+
+}
+
+.glyphicon-refresh {
+
+    height: 2em;
+    left: 15px;
+    font-size: 24px;
+}
+
+.control {
+    position: absolute;
+
+    top: 100px;
+    right: -100px;
+}
+
+.score {
+    position: absolute;
+
+    top: 230px;
+    right: -90px;
+
+    margin-bottom: 20px;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.4;
+
+}
