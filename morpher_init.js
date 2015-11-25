@@ -32,6 +32,7 @@ function shuffle(array) {
                 break;
             }
         }
+        shuffle(data);
         return data;
     }
     function create_morphers(data) {
